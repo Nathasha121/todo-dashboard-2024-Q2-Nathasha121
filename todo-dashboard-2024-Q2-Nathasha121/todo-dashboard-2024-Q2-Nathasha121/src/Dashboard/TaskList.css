@@ -1,0 +1,85 @@
+.task-list {
+  width: 100%;
+}
+
+.task-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.task-list th, .task-list td {
+  padding: 8px;
+  font-size: 14px; 
+  
+  border-bottom: 1px solid #ddd; /* Add border only at the bottom */
+}
+
+.task-list th {
+  background-color: #f2f2f2;
+  text-align: left;
+  border-bottom: 2px solid #ddd; /* Add thicker border at the bottom for headers */
+}
+
+
+
+.status-completed {
+  background-color: #20B826;
+  color: white;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20%; /* Circle shape */
+}
+
+.status-inprogress {
+  background-color: #F2C94C;
+  color: white;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20%; /* Circle shape */
+}
+
+.priority {
+  display: inline-block;
+  padding: 4px 6px;
+  border-radius: 15px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pagination li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.pagination button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+}
+
+.pagination .active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.date-cell {
+  color: #A9A9A9; /* Ash color */
+  padding-left: 12px; /* Add some space */
+}

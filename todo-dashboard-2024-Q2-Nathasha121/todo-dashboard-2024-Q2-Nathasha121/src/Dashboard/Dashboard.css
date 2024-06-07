@@ -1,0 +1,140 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/***********  Header line*******************/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.headline-name {
+  font-size: 22px;
+  margin-left: 20px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-left: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.bell-icon {
+  color: #555;
+}
+
+.arrow-icon {
+  color: #555;
+}
+
+.profile-photo {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+/************** Welcome  Message*******************/
+
+.Welcome {
+  background-color: #ffffff;
+  align-items: center;
+  width: 95%;
+  margin-left: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #D0D5DD;
+  position: relative;
+}
+
+.wphara {
+  color: #818080;
+}
+
+.info-link {
+  color: rgb(187, 30, 153);
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.task-container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 600px;
+  
+}
+
+.task-section {
+  flex: 1;
+  margin-right: 20px;
+  border: 1px solid #D0D5DD;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.sidebar-section {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+
+.activity-feed {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #D0D5DD;
+  margin-bottom: 20px;
+  width:140% ;
+  
+}
+
+.priority-chart {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #D0D5DD;
+  margin-bottom: 20px;
+  width:140% ;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+}
+
+/***********  Close Button *******************/
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #555; 
+}
+
+.close-button:hover {
+  color: #FF0000; 
+}
+

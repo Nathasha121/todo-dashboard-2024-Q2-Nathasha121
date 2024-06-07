@@ -1,0 +1,64 @@
+.sidebar-wrapper {
+    background-color: #32074e;
+    color: white;
+    width: 200px;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    padding: 20px; 
+  }
+  
+  
+  
+  
+  .top_section{
+    
+    display: flex;
+    align-items:center;
+    padding:10px 5px;
+    margin-bottom: 10%;
+    border-bottom: 2px ;
+  
+}
+ 
+ 
+  
+  
+  
+  
+  
+
+
+  .link{
+    display: flex;
+    color: #FFF;
+    transition: all 0.5s;
+    position: relative;
+    padding: 8px 5px ;
+    gap: 10px;
+    transition: all 0.5s;
+    border-radius: 15px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+   
+    
+}
+
+
+
+
+.link:hover{
+    background:#ffffff;
+    transform: translateX(5px);
+    color: #000;
+    transition: all 0.1s;
+}
+.active{
+    background: #4d326e8d;
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+

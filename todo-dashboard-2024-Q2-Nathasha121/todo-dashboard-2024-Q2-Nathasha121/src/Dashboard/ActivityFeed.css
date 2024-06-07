@@ -1,0 +1,38 @@
+.activity-feed-container {
+  max-width: 600px; 
+  margin: 0 auto;
+
+}
+
+.activity-feed {
+  border-collapse: collapse;
+  width: 140%;
+}
+
+.activity-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd; 
+}
+
+.profile-photo {
+  width: 30px; 
+  height: auto; 
+  margin-right: 10px;
+}
+
+.activity-details {
+  flex-grow: 1; 
+  
+}
+
+.activity-details p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.activity-details span {
+  font-size: 12px; 
+  color: #666; 
+}

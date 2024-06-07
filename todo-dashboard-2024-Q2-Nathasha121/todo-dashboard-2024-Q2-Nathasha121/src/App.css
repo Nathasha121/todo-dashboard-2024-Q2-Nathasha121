@@ -1,0 +1,33 @@
+*{
+    
+    text-decoration: none;
+    font-family:"Inter", sans-serif;
+
+}
+
+main{
+    width: 100%;
+    
+}
+ 
+
+.app-wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+.content-wrapper {
+  flex: 1;
+  margin-left: 240px; 
+  overflow-y: auto;
+}
+
+
+
+body{
+    
+    margin: 0;
+    background-color:#f3f1f1;
+}
+
+
